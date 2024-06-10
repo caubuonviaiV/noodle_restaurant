@@ -1,0 +1,195 @@
+$cfg['Servers'][$i]['port'] = '3303';                      
+
+127.0.0.1      fastfood.test        #laragon magic!   
+127.0.0.1      fond.test            #laragon magic!   
+127.0.0.1      play.test            #laragon magic! 
+
+127.0.0.1      fond.all
+<VirtualHost *:80>
+    DocumentRoot "C:\qqq\fond\public"
+    ServerName fond.all
+    ServerAlias www.fond.all
+    <Directory "C:\qqq\fond\public"">
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+        DirectoryIndex index.php index.html
+        Require all granted
+    </Directory>
+</VirtualHost>
+
+
+
+
+get link :
+https://elements.envato.com/fr/mollee-fashion-store-html-template-54QVFHX
+
+
+
+
+
+header ul li
+ <!-- Home -->
+                <li><a href="index.html" class="menu-item">Home</a></li>
+                <!-- Service -->
+                <li>
+                    <a href="#" class="menu-item expand-btn">Service</a>
+                    <div class="mega-menu expandable">
+                    <div class="content">
+                        <div class="col">
+                            <section>
+                                <h2>Logo & Identity</h2>
+                                <ul class="mega-links">
+                                    <li><a href="ServicePage\LogoDesigner.html">Logo Design</a></li>
+                                    <li><a href="#">Business Card Design</a></li>
+                                    <li><a href="#">Letterhead Design</a></li>
+                                    <li><a href="#">Name Card Design</a></li>
+                                    <li><a href="#">Stationery Design</a></li>
+                                </ul>
+                            </section>
+                        </div>
+
+                        <div class="col">
+                            <section>
+                                <h2>Graphic Design</h2>
+                                <ul class="mega-links">
+                                    <li><a href="#">Graphic Design</a></li>
+                                    <li><a href="#">Infographic Design</a></li>
+                                    <li><a href="#">3D Design</a></li>
+                                    <li><a href="#">Photoshop Design</a></li>
+                                    <li><a href="#">Ad Design</a></li>
+                                </ul>
+                            </section>
+                        </div>
+
+                        <div class="col">
+                            <section>
+                                <h2>Art & Illustration</h2>
+                                <ul class="mega-links">
+                                    <li><a href="#">Illustration Design</a></li>
+                                    <li><a href="#">Art Design</a></li>
+                                    <li><a href="#">Character Design</a></li>
+                                </ul>
+                            </section>
+                        </div>
+
+                        <div class="col">
+                            <section>
+                                <h2>Character Design</h2>
+                                <ul class="mega-links">
+                                    <li><a href="#">T-shirt Design</a></li>
+                                    <li><a href="#">Label Design</a></li>
+                                    <li><a href="#">Packaging Design</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <!-- Jobs -->
+            <li><a href="Jobs.html" class="menu-item expand-btn">Jobs</a></li>
+            <!--   Blog -->
+            <li><a href="./Blogs.html" class="menu-item expand-btn">Blog</a></li>
+             <!-- <li></li> <li></li> <li></li> <li></li> -->
+
+
+            <!--    Icon contact  -->
+            <!-- <li>
+                <div class="contact">
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                </div>
+
+                <div class="contact">
+                    <div class="icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                </div>
+
+                <div class="contact">
+                    <div class="icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </li> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- single card -->
+                        <div class = "card">
+                            <div class = "card-image">
+                                <img src = "BlogPage/images/logo-design-trends-2021.jpg" alt = "">
+                                <span class = "sub-text sub-text-box">tours & travel</span>
+                            </div>
+                            <div class = "card-content">
+                                <div class = "card-body">
+                                    <h4 class = "info">By Middle
+                                        <span>/ January 01, </span>
+                                        <span class = "date"></span>
+                                    </h4>
+                                    <h2 class = "title">10 Major Logo Design Trends for 2021</h2>
+                                    <p>If you've seen your fair share of website designs, then you know that fonts (more precisely, typefaces) can actually play a cruc...</p>
+                                </div>
+                                <div class = "card-footer">
+                                    <ul>
+                                        <li><i class = "far fa-comment-alt"> </i> Comment</li>
+                                        <li><i class = "far fa-heart"> </i> Like</li>
+                                        <li><i class = "fas fa-share"></i> Share</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of single card -->
+
+
+quý tsx
+if(Helper::is_submit('editcat')){
+        $category = new Category();
+        $category->setId(Helper::input_value('id'));
+        $category->setName(Helper::input_value('tendm'));
+        if(!empty($category) && CategoryDB::updateCategory($category)){
+            Helper::redirect(Helper::get_url('admin/?c=listcat'));
+        }
+    }
+ if(Helper::is_submit('deletecat')){
+        $category = new Category();
+        $category->setID(Helper::input_value('id'));
+        if(!empty($category) && CategoryDB::deleteCategory($category)){
+            Helper::redirect(Helper::get_url('admin/?c=listcat'));
+        }
+    }
+
+
+
+
+báo cáo 
+Đây là một website giúp cho chủ cửa hàng quản lý hoạt động mua bán online của mình, đưa các sản phẩm của cửa hàng đến tay người tiêu dùng hiệu quả hơn. Khách hàng có thể mua hàng qua internet, mà không cần phải đến trực tiếp tại cửa hàng. Website có các chức năng chính sau Các chức năng chính: + Cho phép cập nhật thương hiệu, danh mục sản phẩm, …vào CSDL.
++ Hiển thị danh sách các sản phẩm theo từng loại.
++ Hiển thị sản phẩm khách hàng đã chọn mua.
++ Hiển thị thông tin khách hàng đặt.
++ Quản lý đơn đặt hàng của khách.
++ Cập nhật sản phẩm, thương hiệu, danh mục. + Xử lý đơn hàng của khách hàng đặt.
++ Thống kê doanh thu,......
+
++ Còn nhiều chức năng khác nữa,...
+
++ Có File Báo Cáo
+

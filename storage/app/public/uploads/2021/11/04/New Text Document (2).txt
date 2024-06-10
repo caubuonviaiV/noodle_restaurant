@@ -1,0 +1,71 @@
+Mối quan hệ giữa các trường hợp sử dụng gồm?
+Mối quan hệ “Bao gồm” là gì ?
+Mối quan hệ “phần mở rộng” là gì ?
+Ví dụ mối quan hệ “phần mở rộng” ?
+Ví dụ mối quan hệ “Bao gồm” ?
+Trường hợp sử dụng “mã hóa sản phẩm” ?
+Các bước để xây dựng sơ đồ trường hợp sử dụng ?
+
+
+
+Nhu cầu khách hàng là gì?
+Tại sao cần xác định được nhu cầu khách hàng?
+Anh/chị biết đến shop chúng tôi lâu chưa?
+Anh/chị đã mua giày bao giờ chưa?
+Kích thước size chân phù hợp với anh/chị?.
+Anh/chị muốn chọn hướng nào?
+Đặc điểm nào của giày nay làm anh chị khó chịu nhất ?
+Đặc điểm nào của giày nay làm anh chị thích nhất ?
+Vì sao anh chị lại muốn chọn loại giày này?
+Anh/chị thử xem, nếu còn yêu cầu gì thì cứ hỏi ?
+Nó sẻ giúp anh chị có một cảm giác thoải mái hơn?
+
+
+
+Tạo class Database thao tác với CSDL - PHP MVC
+https://www.youtube.com/watch?v=iFdbugihSUo&list=PLrVNwnIG__Q1PrtJYkdqNrsNvtjJpJjvA
+Lập trình website bán hàng full stack Trang giỏ hàng
+https://www.youtube.com/watch?v=zUVbKfHgA40&list=PLPNLZmPSwSkc0jZwYBIxHjACQrq16lJQe&index=8
+đồ án 
+https://www.youtube.com/watch?v=hvvHMi6l_7g
+form login
+https://www.youtube.com/playlist?list=PLmZLnR1Ggs0WppBRswlCOhcrO1KLlxaqZ
+ Website tìm kiếm, giới thiệu việc làm php
+https://www.youtube.com/results?search_query=+Website+t%C3%ACm+ki%E1%BA%BFm%2C+gi%E1%BB%9Bi+thi%E1%BB%87u+vi%E1%BB%87c+l%C3%A0m+php
+tin tức
+https://www.youtube.com/watch?v=OQapj7LfWxs&list=PLzrVYRai0riRzNtnHgc1OEOmRsJ_9lN3p&index=20
+https://www.youtube.com/watch?v=4DgoFamimxw
+
+
+
+ These common sense skills are best learned during childhood
+
+These trends have been gradually picked up and adopted by many big companies in Vietnam and lead to myriad impacts on human workforce as new business strategies require new ways of doing things and new strategies on human capital. \\
+
+
+organisations are enacting radically new ways of working and operating with a focus on human-centric strategies.
+
+COVID-19 has heightened leaders’ awareness of the potential benefits of this approach
+
+Many organisations in Vietnam are also considering an approach to workplace digital optimisation beyond COVID-19. 
+Present perfect continuous
+The world of work and employment markets have been going through a profound shift to virtual
+
+
+
+
+
+mạng pc:
+các phương pháp kiểm tra và sửa lỗi hoạt động ở tầng 2 datalink ?
+  kiểm tra:
+     • Cơ chế phát hiện lỗi không đáng tin cậy 100%!
+• giao thức có thể bỏ sót vài lỗi, nhưng rất hiếm
+• trường EDC càng lớn thì khả năng phát hiện và sửa lỗi càng cao
+    
+  sửa lỗi hoạt động :
+     bên nhận xác định và sửa các lỗi bit mà không yêu cầu sự gửi lại
+
+
+
+
+
